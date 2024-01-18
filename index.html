@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Kaviarasu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d64d732ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="img/bgv.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+    <div id="header">
+        <div class="containe">
+            <nav>
+            <img src="img/logo1.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id ="final"><img src="img/li.jpg" class="lii"></li>
+            </ul>
+            </nav>
+            <div class="headertext">
+                <p class="Domain">Front-end Developer</p>
+                <h1>Hi, Myself <span>Kavi Arasu</span> <br> From REC Chennai</h1>
+            </div>
+        </div>
+    </div>
+    <div id="fir">
+    <div id="about">
+        <div class="containe">
+            <div class="row">
+                <div class="col1">
+                    <img src="img/usermy.jpg">
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="cont">Myself, KAVIARASU, completed a diploma in electronics and communication engineering with 2 years of technical experience in computer hardware, computer networking, and computer services,and now I am continuing my UG in B.E(computer science engineering). I am interested in web development (HTML,CSS,JS),I am a fast learner, and I have solved more than 100 problems in codechef (Java, C).</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')":>Education</p>
+                        <p class="tab-links" onclick="opentab('skills')":>Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')":>Projects</p>
+                        <p class="tab-links"  onclick="opentab('internship')":>Internship</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>AVC polytechnic college</span><br>Diploma in Electronics and Communicaton Engineering(2020-2023)</li>
+                            <li><span>Rajalakshmi Engineering College</span><br> Bachelor in Computer Science Engineering(Current)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Proficient in HTML</li>
+                            <li><span>CSS</span><br>Completed full time course in CSS</li>
+                            <li><span>JS</span><br>Completed Basic of JS</li>
+                            <li><span>JAVA</span><br>Solved more than 100 problem in codechef</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front-end</span><br>Developed a website of clone Youtube (1-Month)</li>
+                            <li><span>JAVAX</span><br>Developed Mini project</li>
+                            <li><span>Li-Fi</span><br>Developed a Light communication project(4-Months)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Front-end</span><br> Developing a website for BharatIntern (current)</li>
+                            <li><span>Electronics</span><br>Completed Internship in Robotics</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="containe">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-servicestack"></i>
+                    <h2>Computer Service</h2>
+                    <p>We are responsible for all aspects of the computer system, from installing and configuring software to troubleshooting problems</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Mobile app designers can be iOS developers, Android developers, app designers, and more. we normally work closely with user experience (UX) designers and user interface (UI) designers to adapt their designs to a mobile-friendly experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="containe">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work"><img src="img/work1.jpg">
+                    <div class="layer">
+                        <h3>Web Developement</h3>
+                        <p>Responsive Website is the approach that suggests website design and development should respond to the user’s request irrespective of device they use (mobile/ laptop/ desktop/ ipad).</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="img/work2.jpg">
+                    <div class="layer">
+                        <h3>App Developement</h3>
+                        <p>Application Development is the process of creating software applications to fulfill a specific purpose. It involves the development of both the front-end and back-end of an application. The front-end is the user interface, while the back-end is the server-side logic and database. Application Development is used to create applications for a variety of purposes, such as web applications, mobile applications, desktop applications, and more</p>
+                        <a href="https://en.wikipedia.org/wiki/Mobile_app_development" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="img/work3.jpg">
+                    <div class="layer">
+                        <h3>Computer Services</h3>
+                        <p>The computer repair technicians help troubleshooters fix the technical issues bugging the computers, laptops, and other networks.</p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_repair_technician" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="containe">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kaviarasu26@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0987613641</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kavi-arasu-cse-83728928b/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                    </div>
+                    <a href="img/KAVIARASU CV (1).pdf" download
+                     class="btn2">Download CV</a>
+                </div>
+                
+            </div>
+            <div>
+                <a href="#final"  class="btn">Main menu</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Kaviarasu(<i class="fa-solid fa-code"></i> BharatIntern)</p>
+        </div>
+    </div>
+    </div>
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+
+</body>
+
+</html>
